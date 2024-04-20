@@ -49,11 +49,6 @@ public class Main {
             System.out.println("Búsqueda en árbol binario:");
             System.out.println("Elemento 10 encontrado: " + encontradoArbol);
             System.out.println("Tiempo de búsqueda: " + tiempoArbol + " nanosegundos");
-
-            // Calcular y mostrar la diferencia de tiempos
-            long diferenciaTiempos = tiempoLista - tiempoArbol;
-            System.out.println("Diferencia de tiempos (Lista - Árbol): " + diferenciaTiempos + " nanosegundos");
-            System.out.println();
         }
     }
 }
